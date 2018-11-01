@@ -1,0 +1,25 @@
+Kennissessie
+
+Wat is t
+Context
+Iedereen up to speed brengen
+Implementatie maken/doen
+	prototype demo
+
+presentatie maken/stappenplan
+
+
+
+Een UI maken om de advanced FSM te structuren/invullen.
+States toevoegen en verwijderen.
+Transities toevoegen en verwijderen.
+Per state params editen.
+
+
+
+Hoe:
+Een transition class maken die de states gebruiken om een transitie te doen.
+Hierin staat de treshold en de target state. Deze kan dan via Editor aan de states worden gekoppeld.
+Interfaces voor de transities en de states end de custom tresholds. 
+Treshold is wanneer van een state naar een andere wordt geswitched. Target state is waar hij naartoe switched.
+Transitie is de overgang van state A naar state B
