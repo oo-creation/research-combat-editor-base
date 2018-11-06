@@ -47,6 +47,7 @@ public class NPCTankController : AdvancedFSM
         PerformTransition(t); 
     }
 
+    // TODO This must happen in the UI
     private void ConstructFSM()
     {
         //Get the list of points
